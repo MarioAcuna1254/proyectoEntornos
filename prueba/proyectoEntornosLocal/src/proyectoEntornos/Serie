@@ -1,0 +1,84 @@
+public class Serie {
+	
+	private String titulo;
+	private int ntemp=3;
+	private boolean entregado=false;
+	private String genero;
+	private String creador;
+	
+	Serie(){
+		
+		
+	}
+	
+	
+	Serie(String titulo, String creador){
+		
+		this.titulo=titulo;
+		this.creador=creador;
+		
+		
+	}
+	
+	
+	Serie(String titulo, int ntemp, String genero, String creador){
+		
+		this.titulo=titulo;
+		this.ntemp=ntemp;
+		this.genero=genero;
+		this.creador=creador;
+		
+		
+	}
+
+
+	public String getTitulo() {
+		return titulo;
+	}
+
+
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+
+
+	public int getNtemp() {
+		return ntemp;
+	}
+
+
+	public void setNtemp(int ntemp) {
+		this.ntemp = ntemp;
+	}
+
+
+	public String getGenero() {
+		return genero;
+	}
+
+
+	public void setGenero(String genero) {
+		this.genero = genero;
+	}
+
+
+	public String getCreador() {
+		return creador;
+	}
+
+
+	public void setCreador(String creador) {
+		this.creador = creador;
+	}
+
+
+	@Override
+	public String toString() {
+		return "Serie [titulo=" + titulo + ", ntemp=" + ntemp + ", entregado=" + entregado + ", genero=" + genero
+				+ ", creador=" + creador + "]";
+	}
+
+
+	
+
+}
