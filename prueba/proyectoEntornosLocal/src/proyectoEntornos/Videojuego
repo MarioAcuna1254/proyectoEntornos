@@ -1,0 +1,64 @@
+public class Videojuego {
+	private int horasEstimadas=10;
+	private String titulo;
+	private boolean entregado=false;
+	private String genero;
+	private String compañia;
+	
+	public Videojuego(int horasEstimadas, String titulo) {
+		super();
+		this.horasEstimadas = horasEstimadas;
+		this.titulo = titulo;
+	}
+
+	public Videojuego() {
+		super();
+	}
+
+	public Videojuego(int horasEstimadas, String titulo, String genero, String compañia) {
+		super();
+		this.horasEstimadas = horasEstimadas;
+		this.titulo = titulo;
+		this.genero = genero;
+		this.compañia = compañia;
+	}
+
+	public int getHorasEstimadas() {
+		return horasEstimadas;
+	}
+
+	public void setHorasEstimadas(int horasEstimadas) {
+		this.horasEstimadas = horasEstimadas;
+	}
+
+	public String getTitulo() {
+		return titulo;
+	}
+
+	public void setTitulo(String titulo) {
+		this.titulo = titulo;
+	}
+
+	public String getGenero() {
+		return genero;
+	}
+
+	public void setGenero(String genero) {
+		this.genero = genero;
+	}
+
+	public String getCompañia() {
+		return compañia;
+	}
+
+	public void setCompañia(String compañia) {
+		this.compañia = compañia;
+	}
+
+	@Override
+	public String toString() {
+		return "Videojuego [horasEstimadas=" + horasEstimadas + ", titulo=" + titulo + ", entregado=" + entregado
+				+ ", genero=" + genero + ", compañia=" + compañia + "]";
+	}
+	
+}
