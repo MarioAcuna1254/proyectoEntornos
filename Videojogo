@@ -61,9 +61,6 @@ public class Videojuego {
 		return "Videojuego [horasEstimadas=" + horasEstimadas + ", titulo=" + titulo + ", entregado=" + entregado
 				+ ", genero=" + genero + ", compañia=" + compañia + "]";
 	}
-  
-  public void nada(){
-  //Esta funcion no hace nada;
-  }
+ 
 	
 }
